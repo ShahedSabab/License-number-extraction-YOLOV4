@@ -1,7 +1,7 @@
 # License-plate-extraction-YOLOV4
 The objective is to develop a custom object detection model.
 
-The YOLOV4 model is pretrained with MS coco dataset. The model can detect objects in real-time.
+The original YOLOV4 model is pretrained with MS coco dataset. The model can detect objects in real-time.
 <img src="detectedRaw.gif" width="100%">
 
 # Performance with custom data:
