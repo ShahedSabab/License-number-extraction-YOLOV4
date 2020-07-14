@@ -30,3 +30,6 @@ The original YOLOV4 model is pretrained with MS coco dataset. The model can dete
 ### Test 6
 <img src="/testimages/test6.jpg" width="80%">
 <img src="/testimages/test6.PNG" width="60%">
+
+# How to Run:
+Please check the License Plate Extraction.ipynb file for the detailed analysis. The supported files can be found in the 'support' directory. 
