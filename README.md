@@ -1,5 +1,10 @@
 # License-plate-extraction-YOLOV4
-The objective is to extract the registration number/license plate number from different vehicle images. The task can be divided into 2 parts. First, detect the possible ROI(region of interest) - in this case it is the license plate of vehicles. Second, extract the letters and numbers from the detected region. To separate ROI from the images, object     
+The objective is to extract the registration/license plate number from different vehicle images. The task can be divided into 2 parts. First, detect the possible ROI(region of interest) - in this case it is the license plate of vehicles. Second, extract the letters and numbers from the detected region. To separate ROI from the images, object detection model - YOLO v4 is used. YOLO v4 (You only look once) is a family of one-stage object detectors that are fast (i.e., able to give real time results) and accurate. To support license plate detection this model is traied with custom dataset. The traied model can separate multiple ROI's(i.e., license plates) from the image. The detected license plate images are then processed for OCR (i.e., Optical Character Recognition). 
+
+• 1000 custom dataset is collected from the [Open Images Dataset V6](https://storage.googleapis.com/openimages/web/index.html) to train the YOLO v4 model.
+• The performance achived from the mdoel is Mean Average Precision, mAP = 91%. 
+• The model can detect multiple ROI's (license plate images). 
+• Google Vision API is used as to extract the numbers/letters from the detected license plates.
 
 The original YOLOV4 model is pretrained with MS coco dataset. The model can detect objects in real-time.
 <img src="detectedRaw.gif" width="100%">
