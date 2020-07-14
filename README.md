@@ -5,7 +5,8 @@ The YOLOV4 model is pretrained with MS coco dataset. The model can detect object
 <img src="detectedRaw.gif" width="100%">
 
 # Performance with custom data:
-After training the model 
+<img src="performance.PNG" width="60%">
+
 ### Test 1:
 <img src="/testimages/test1.jpg" width="80%">
 <img src="/testimages/test1.PNG" width="60%">
